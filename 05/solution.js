@@ -9,6 +9,7 @@ const avgKoalas = calcAverage(23, 34, 27);
 const checkWinner = (dolphins, koalas) => {
   if (dolphins >= (koalas * 2)) return `Dolphins win with the average score of ${dolphins}.`;
   if (koalas >= (dolphins * 2)) return `Koalas win with the average score of ${koalas}.`;
+  return "Non one wins."
 }
 
 console.log(checkWinner(avgDolhins, avgKoalas));
